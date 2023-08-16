@@ -31,7 +31,7 @@ const components = {
   }
 }
 const fonts = {
-  heading: 'M PLUS Rounded 1C'
+  heading: "'Montserrat', sans-serif;"
 }
 
 const colors = {
