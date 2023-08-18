@@ -1,23 +1,23 @@
 import {
   Container,
   Box,
+  Button,
   Text,
   Heading,
   Image,
-  useColorModeValue
+  useColorModeValue,
+  Link
 } from '@chakra-ui/react'
+import NextLink from 'next/link'
 import Section from '../components/section'
+import Paragraph from '../components/paragraph'
+import { ChevronRightIcon } from '@chakra-ui/icons'
+import { BioSection, BioYear } from '../components/bio'
 const Page = () => {
   return (
     <Container>
-      <Box
-        borderRadius="lg"
-        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
-        mb={6}
-        p={3}
-        align="center"
-      >
-        <Text color="white">
+      <Box borderRadius="lg" bg="#F7941D" mb={6} p={3} align="center">
+        <Text color="white" fontWeight="bold">
           Hello, I&apos;m a Clincal Pharmacist based in Bahrain!
         </Text>
       </Box>
@@ -48,21 +48,47 @@ const Page = () => {
         <Heading as="h3" variant="section-title">
           Work
         </Heading>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. At varius
-          vel pharetra vel turpis nunc eget lorem. Purus in mollis nunc sed id
-          semper risus in hendrerit. Volutpat commodo sed egestas egestas. Sit
-          amet mauris commodo quis imperdiet massa tincidunt nunc. Enim blandit
-          volutpat maecenas volutpat blandit. Platea dictumst quisque sagittis
-          purus sit amet volutpat consequat. Vitae ultricies leo integer
-          malesuada nunc vel risus commodo. Ultricies tristique nulla aliquet
-          enim tortor at. Id volutpat lacus laoreet non curabitur gravida.
-          Dignissim cras tincidunt lobortis feugiat. Odio pellentesque diam
-          volutpat commodo sed egestas egestas fringilla. Sapien nec sagittis
-          aliquam malesuada bibendum arcu vitae. Sed tempus urna et pharetra
-          pharetra massa massa ultricies.
-        </p>
+        <Paragraph>
+          Ahmed is a Pharmacist and Web developer based in Bahrain with passion
+          of building digital stuff with code to solve real-life problems. One
+          of his main interests is involving of code in pharmacy field. The
+          process of developing handled by him, from early designs to final
+          assessment. When not coding neither studying, he loves drawing
+          portrait and walking out. Currently, he studies for final year PharmD
+          degree.
+        </Paragraph>
+        <Box align="center" my={4}>
+          <NextLink href="/works">
+            <Button rightIcon={<ChevronRightIcon />} bg="#F7941D">
+              My Portfolio
+            </Button>
+          </NextLink>
+        </Box>
+      </Section>
+      <Section delay={0.2}>
+        <Heading as="h3" variant="section-title">
+          Bio
+        </Heading>
+        <BioSection>
+          <BioYear>2001</BioYear>
+          Born in Muharraq (المٌحَرَّقْ), Bahrain
+        </BioSection>
+        <BioSection>
+          <BioYear>2025</BioYear>
+          Completed PharmD Program at Beni-Suef University
+          <br />
+          (حَصَلَ على دَرَجَةْ دُكْتور صَيْدَلي مِنْ جامِعَةْ بَني سُوَيْفْ)
+        </BioSection>
+        <Heading as="h3" variant="section-title">
+          I love
+        </Heading>
+        <Paragraph>
+          Art, Drawing,{' '}
+          <Link href="https://www.behance.net/ahmedllshafiey">
+            Graphic Design
+          </Link>
+          , Music, Photography
+        </Paragraph>
       </Section>
     </Container>
   )
