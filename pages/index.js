@@ -17,8 +17,8 @@ const Page = () => {
   return (
     <Container>
       <Box borderRadius="lg" bg="#F7941D" mb={6} p={3} align="center">
-        <Text color="white" fontWeight="bold">
-          Hello, I&apos;m a Clincal Pharmacist based in Bahrain!
+        <Text color="dark" fontWeight="bold">
+          Hello, I&apos;m a Pharmacist based in Bahrain!
         </Text>
       </Box>
       <Box display={{ md: 'flex' }}>
@@ -59,8 +59,13 @@ const Page = () => {
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works">
-            <Button rightIcon={<ChevronRightIcon />} bg="#F7941D">
+            <Button rightIcon={<ChevronRightIcon />} bg="#F7941D" mr={5}>
               My Portfolio
+            </Button>
+          </NextLink>
+          <NextLink href="https://github.com/ahmedllshafiey">
+            <Button rightIcon={<ChevronRightIcon />} bg="#F7941D" ml={5}>
+              My Repositories
             </Button>
           </NextLink>
         </Box>
