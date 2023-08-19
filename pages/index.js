@@ -59,12 +59,12 @@ const Page = () => {
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works">
-            <Button rightIcon={<ChevronRightIcon />} bg="#F7941D" mr={5}>
+            <Button rightIcon={<ChevronRightIcon />} bg="#F7941D" m={2}>
               My Portfolio
             </Button>
           </NextLink>
           <NextLink href="https://github.com/ahmedllshafiey">
-            <Button rightIcon={<ChevronRightIcon />} bg="#F7941D" ml={5}>
+            <Button rightIcon={<ChevronRightIcon />} bg="#F7941D" m={2}>
               My Repositories
             </Button>
           </NextLink>

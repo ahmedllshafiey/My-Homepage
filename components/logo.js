@@ -26,7 +26,7 @@ const Logo = () => {
           color={useColorModeValue('gray.800', 'whiteAlpha.900')}
           fontFamily="'Montserrat', sans-serif"
           fontWeight="bold"
-          ml={30}
+          ml={3}
           letterSpacing="0.5px"
         >
           Ahmed Sayed
