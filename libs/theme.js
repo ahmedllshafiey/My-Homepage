@@ -28,6 +28,11 @@ const components = {
       color: mode('#3d7aed', '#ff63c3')(props),
       textUnderlineOffset: 3
     })
+  },
+  Button: {
+    baseStyle: props => ({
+      fontFamily: "'Montserrat', sans-serif;"
+    })
   }
 }
 const fonts = {
@@ -35,7 +40,7 @@ const fonts = {
 }
 
 const colors = {
-  glassTeal: '#88ccca'
+  glassTeal: '#F7941D'
 }
 
 const config = {
