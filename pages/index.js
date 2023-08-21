@@ -4,8 +4,6 @@ import {
   Button,
   Text,
   Heading,
-  Image,
-  useColorModeValue,
   Link
 } from '@chakra-ui/react'
 import NextLink from 'next/link'
@@ -14,10 +12,13 @@ import Paragraph from '../components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
+import { Header } from '../components/header'
+import img from '../public/images/assets/Story.jpg'
 const Page = () => {
   return (
     <Layout>
       <Container>
+        <Header src="/images/assets/Story.jpg" />
         {/* <Box borderRadius="lg" bg="#F7941D" mb={6} p={3} align="center">
           <Text
             color="dark"
@@ -48,32 +49,15 @@ const Page = () => {
         </Box> */}
         <Box borderRadius="lg" bg="#F7941D" mb={6} p={3} align="center">
           <Text color="dark" fontWeight="bold" fontFamily="'Cairo', sans-serif">
-            Hello, I&apos;m a Pharmacist raised in Bahrain!
+            Hi, I&apos;m a Pharmacist raised in Bahrain!
           </Text>
         </Box>
         <Box display={{ md: 'flex' }}>
-          <Box flexGrow={1}>
+          <Box flexGrow={1} mb={3}>
             <Heading>Ahmed Sayed</Heading>
             <Text fontFamily="'Cairo', sans-serif">
               Digital Hoopoe (Artist / Designer / Developer / Pharmacist)
             </Text>
-          </Box>
-          <Box
-            flexShrink={0}
-            mt={{ base: 4, md: 0 }}
-            ml={{ md: 6 }}
-            align="center"
-          >
-            <Image
-              borderColor="whiteAlpha.800"
-              borderWidth={2}
-              borderStyle="solid"
-              maxWidth="100px"
-              display="inline-block"
-              borderRadius="full"
-              src="/images/Ahmed.jpg"
-              alt="Profile Image"
-            />
           </Box>
         </Box>
         <Section delay={0.1}>
@@ -117,7 +101,7 @@ const Page = () => {
             (حَصَلَ على دَرَجَةْ دُكْتور صَيْدَلي مِنْ جامِعَةْ بَني سُوَيْفْ)
           </BioSection>
           <Heading as="h3" variant="section-title">
-            Interest
+            Interests
           </Heading>
           <Paragraph>
             Art, Drawing,{' '}

@@ -29,6 +29,10 @@ const LinkItem = ({ href, path, children }) => {
       color={active ? '#202023' : inactiveColor}
       borderRadius="lg"
       fontFamily="'Cairo', sans-serif"
+      _hover={{
+        background: '#F7941D',
+        color: 'white'
+      }}
     >
       {children}
     </Link>
@@ -89,14 +93,11 @@ const Navbar = props => {
                 <MenuItem as={NextLink} href="/">
                   About
                 </MenuItem>
-                <MenuItem as={NextLink} href="/">
-                  Works
+                <MenuItem as={NextLink} href="/works">
+                  Projects
                 </MenuItem>
-                <MenuItem as={NextLink} href="/">
-                  Posts
-                </MenuItem>
-                <MenuItem as={NextLink} href="/">
-                  Code Source
+                <MenuItem as={NextLink} href="/blog">
+                  Blog
                 </MenuItem>
               </MenuList>
             </Menu>
