@@ -31,12 +31,12 @@ const components = {
   },
   Button: {
     baseStyle: props => ({
-      fontFamily: "'Montserrat', sans-serif;"
+      fontFamily: "'Cairo', sans-serif"
     })
   }
 }
 const fonts = {
-  heading: "'Montserrat', sans-serif;"
+  heading: "'Cairo', sans-serif"
 }
 
 const colors = {

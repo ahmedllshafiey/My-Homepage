@@ -18,15 +18,45 @@ const Page = () => {
   return (
     <Layout>
       <Container>
+        {/* <Box borderRadius="lg" bg="#F7941D" mb={6} p={3} align="center">
+          <Text
+            color="dark"
+            fontWeight="bold"
+            fontSize="1.7em"
+            fontFamily="'Cairo', sans-serif"
+            align="right"
+          >
+            مَشَيْناها خُطىً كُتِبَتْ علينا
+          </Text>
+          <Text
+            color="dark"
+            fontWeight="bold"
+            fontSize="1.7em"
+            fontFamily="'Cairo', sans-serif"
+            align="left"
+          >
+            ومَنْ كُتِبَتْ عليه خُطىً مشاها
+          </Text>
+          <br />
+          <Text
+            color="dark"
+            fontWeight="light"
+            fontFamily="'Cairo', sans-serif"
+          >
+           أبو العلاء المعري -
+          </Text>
+        </Box> */}
         <Box borderRadius="lg" bg="#F7941D" mb={6} p={3} align="center">
-          <Text color="dark" fontWeight="bold">
-            Hello, I&apos;m a Pharmacist based in Bahrain!
+          <Text color="dark" fontWeight="bold" fontFamily="'Cairo', sans-serif">
+            Hello, I&apos;m a Pharmacist raised in Bahrain!
           </Text>
         </Box>
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
             <Heading>Ahmed Sayed</Heading>
-            <p>Digital Hoopoe (Artist / Designer / Developer / Pharmacist)</p>
+            <Text fontFamily="'Cairo', sans-serif">
+              Digital Hoopoe (Artist / Designer / Developer / Pharmacist)
+            </Text>
           </Box>
           <Box
             flexShrink={0}
@@ -74,7 +104,7 @@ const Page = () => {
         </Section>
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
-            Bio
+            Biography
           </Heading>
           <BioSection>
             <BioYear>2001</BioYear>
@@ -87,7 +117,7 @@ const Page = () => {
             (حَصَلَ على دَرَجَةْ دُكْتور صَيْدَلي مِنْ جامِعَةْ بَني سُوَيْفْ)
           </BioSection>
           <Heading as="h3" variant="section-title">
-            I love
+            Interest
           </Heading>
           <Paragraph>
             Art, Drawing,{' '}

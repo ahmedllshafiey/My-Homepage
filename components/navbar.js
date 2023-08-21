@@ -28,6 +28,7 @@ const LinkItem = ({ href, path, children }) => {
       bg={active ? 'glassTeal' : undefined}
       color={active ? '#202023' : inactiveColor}
       borderRadius="lg"
+      fontFamily="'Cairo', sans-serif"
     >
       {children}
     </Link>
@@ -68,10 +69,10 @@ const Navbar = props => {
           mt={{ base: 4, md: 0 }}
         >
           <LinkItem href="/works" path={path}>
-            Works
+            Projects
           </LinkItem>
           <LinkItem href="/posts" path={path}>
-            Posts
+            Blog
           </LinkItem>
         </Stack>
         <Box flex={1} align="right">
