@@ -20,7 +20,7 @@ import { Header } from '../components/header'
 import img from '../public/images/assets/Story.jpg'
 import { GridItem } from '../components/grid-item'
 import { FaGithub } from 'react-icons/fa'
-import { IoLogoTwitter, IoLogoInstagram, IolGitCompare } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoInstagram } from 'react-icons/io5'
 const Page = () => {
   return (
     <Layout>
