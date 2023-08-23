@@ -25,21 +25,25 @@ const Page = () => {
   return (
     <Layout>
       <Container>
-        <Header src="/images/assets/Story.jpg" />
-        <Box borderRadius="lg" bg="#F7941D" mb={6} p={3} align="center">
-          <Text color="dark" fontWeight="bold" fontFamily="'Cairo', sans-serif">
-            Hi, I&apos;m a Pharmacist raised in Bahrain!
-          </Text>
-        </Box>
-        <Box display={{ md: 'flex' }}>
-          <Box flexGrow={1} mb={3}>
-            <Heading>Ahmed Sayed</Heading>
-            <Text fontFamily="'Cairo', sans-serif">
-              Digital Hoopoe (Artist / Designer / Developer / Pharmacist)
+        <Section delay={0.1}>
+          <Header src="/images/assets/Story.jpg" />
+          <Box borderRadius="lg" bg="#F7941D" mb={6} p={3} align="center">
+            <Text
+              color="dark"
+              fontWeight="bold"
+              fontFamily="'Cairo', sans-serif"
+            >
+              Hi, I&apos;m a Pharmacist raised in Bahrain!
             </Text>
           </Box>
-        </Box>
-        <Section delay={0.1}>
+          <Box display={{ md: 'flex' }}>
+            <Box flexGrow={1} mb={3}>
+              <Heading>Ahmed Sayed</Heading>
+              <Text fontFamily="'Cairo', sans-serif">
+                Digital Hoopoe (Artist / Designer / Developer / Pharmacist)
+              </Text>
+            </Box>
+          </Box>
           <Heading as="h3" variant="section-title">
             About Me
           </Heading>
@@ -122,7 +126,7 @@ const Page = () => {
             </ListItem>
           </List>
         </Section>
-        <Text opacity={0.5} align="center" fontFamily="'Cairo', sans-serif">
+        <Text opacity={0.7} align="center" fontFamily="'Cairo', sans-serif">
           &copy; 2023 Ahmed Sayed. All Rights Reserved.
         </Text>
       </Container>

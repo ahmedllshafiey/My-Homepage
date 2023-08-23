@@ -30,8 +30,7 @@ const LinkItem = ({ href, path, children }) => {
       borderRadius="lg"
       fontFamily="'Cairo', sans-serif"
       _hover={{
-        background: '#F7941D',
-        color: 'white'
+        textDecoration: 'none'
       }}
     >
       {children}
