@@ -27,7 +27,7 @@ const Health = () => {
               second day
             </Paragraph>
             <Image
-              src="/images/assets/Media.jpg"
+              src="/images/assets/Media Team.jpg"
               borderRadius="0.5rem"
               mb={3}
               mt={3}
