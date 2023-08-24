@@ -4,6 +4,9 @@ import { WorkGridItem } from '../components/grid-item'
 import health from '../public/images/assets/Cover.jpg'
 import Layout from '../components/layouts/article'
 import design1 from '../public/images/assets/Sign.jpg'
+import design2 from '../public/images/assets/Nefertiti Poster -01.jpg'
+import design3 from '../public/images/assets/Final.jpg'
+import design4 from '../public/images/assets/Cover Head.jpg'
 
 const Works = () => {
   return (
@@ -24,10 +27,21 @@ const Works = () => {
           <Heading as="h3" fontSize={25} mb={4}>
             Graphic Design Projects
           </Heading>
-          <SimpleGrid columns={[1, 1, 2]} gap={6} mb={4}>
-            <WorkGridItem id="health" title="Inner Core" thumbnail={design1}>
+          <SimpleGrid columns={[1, 1, 1]} gap={6} mb={4}>
+            <WorkGridItem id="core" title="Inner Core" thumbnail={design1}>
               Visualization of inner traits. Fear, Creatvity and Beauty. Project
               based on real models
+            </WorkGridItem>
+            <WorkGridItem id="egypt" title="Egypt Prints" thumbnail={design2}>
+              Number of my designs for printed Flyers and Brochures to introduce
+              Egyptian Civilization
+            </WorkGridItem>
+            <WorkGridItem
+              id="brand"
+              title="Tamer Visual Identity"
+              thumbnail={design4}
+            >
+              Visual Identity from Imaginary Tamer Company
             </WorkGridItem>
           </SimpleGrid>
         </Section>

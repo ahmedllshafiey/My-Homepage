@@ -20,7 +20,13 @@ import { Header } from '../components/header'
 import img from '../public/images/assets/Story.jpg'
 import { GridItem } from '../components/grid-item'
 import { FaGithub } from 'react-icons/fa'
-import { IoLogoTwitter, IoLogoInstagram } from 'react-icons/io5'
+import {
+  SiGithub,
+  SiInstagram,
+  SiLinkedin,
+  SiBehance,
+  SiPinterest
+} from 'react-icons/si'
 const Page = () => {
   return (
     <Layout>
@@ -48,7 +54,7 @@ const Page = () => {
             About Me
           </Heading>
           <Paragraph>
-            Ahmed is a Pharmacist and Web developer based in Bahrain with
+            Ahmed is a Undergrade Pharmacy Student and Web developer based in Bahrain with
             passion of building digital stuff with code to solve real-life
             problems. One of his main interests is involving of code in pharmacy
             field. The process of developing handled by him, from early designs
@@ -99,32 +105,50 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             Find Me on The Internet
           </Heading>
-          <List>
-            <ListItem>
-              <Link href="https://github.com/ahmedllshafiey" target="_blank">
-                <Button variant="ghost" leftIcon={<Icon as={FaGithub} />}>
-                  @ahmedllshafiey
-                </Button>
-              </Link>
-            </ListItem>
-            <ListItem>
-              <Link href="https://github.com/ahmedllshafiey" target="_blank">
-                <Button variant="ghost" leftIcon={<Icon as={IoLogoTwitter} />}>
-                  @ahmedllshafiey
-                </Button>
-              </Link>
-            </ListItem>
-            <ListItem>
-              <Link href="https://github.com/ahmedllshafiey" target="_blank">
-                <Button
-                  variant="ghost"
-                  leftIcon={<Icon as={IoLogoInstagram} />}
-                >
-                  @ahmedllshafiey
-                </Button>
-              </Link>
-            </ListItem>
-          </List>
+          <Box
+            align="center"
+            justifyContent="flex-start"
+            display="flex"
+            alignItems="center"
+            flexWrap="wrap"
+            mt={4}
+          >
+            <Link
+              href="https://github.com/ahmedllshafiey"
+              color="#F7941D"
+              m={3}
+              ml={0}
+            >
+              <SiGithub fontSize={40} />
+            </Link>
+            <Link
+              href="https://www.instagram.com/ahmedllshafiey/"
+              color="#F7941D"
+              m={3}
+              ml={0}
+              target="_blank"
+            >
+              <SiInstagram fontSize={40} />
+            </Link>
+            <Link
+              href="https://www.linkedin.com/in/ahmedllshafiey/"
+              color="#F7941D"
+              m={3}
+              ml={0}
+              target="_blank"
+            >
+              <SiLinkedin fontSize={40} />
+            </Link>
+            <Link
+              href="https://www.pinterest.com/ahmedllshafiey/"
+              color="#F7941D"
+              m={3}
+              ml={0}
+              target="_blank"
+            >
+              <SiPinterest fontSize={40} />
+            </Link>
+          </Box>
         </Section>
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
