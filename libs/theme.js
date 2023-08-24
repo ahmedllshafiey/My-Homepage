@@ -1,10 +1,10 @@
 import { extendTheme } from '@chakra-ui/react'
 import { mode } from '@chakra-ui/theme-tools'
 
-const style = {
+const styles = {
   global: props => ({
     body: {
-      bg: mode('#f0e7db', '#202023')(props)
+      bg: mode('#f7ebdc', '#202023')(props)
     }
   })
 }
@@ -50,7 +50,7 @@ const config = {
 
 const theme = extendTheme({
   config,
-  style,
+  styles,
   components,
   colors,
   fonts

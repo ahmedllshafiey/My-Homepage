@@ -126,6 +126,13 @@ const Page = () => {
             </ListItem>
           </List>
         </Section>
+        <Section delay={0.3}>
+          <Heading as="h3" variant="section-title">
+            For Business Inquiries
+          </Heading>
+          <Text fontWeight="bold">Contact Me At:</Text>
+          <Text>ahmedll.shafiey@gmail.com</Text>
+        </Section>
         <Text opacity={0.7} align="center" fontFamily="'Cairo', sans-serif">
           &copy; 2023 Ahmed Sayed. All Rights Reserved.
         </Text>
