@@ -25,7 +25,7 @@ const Core = () => {
           <Image
             mb={4}
             borderRadius="lg"
-            src="/images/assets/Nefertiti Poster -01.jpg"
+            src="/images/assets/Sign.jpg"
           />
           <Paragraph>
             When we look inside ourselves, we find many things that may be
