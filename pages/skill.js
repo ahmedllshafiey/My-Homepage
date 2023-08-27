@@ -113,7 +113,7 @@ const Skills = () => {
             >
               <SiSass fontSize={60} />
             </Link>
-            <Link
+            {/* <Link
               target="_blank"
               href="https://svelte.dev/"
               m={3}
@@ -121,7 +121,7 @@ const Skills = () => {
               ml={0}
             >
               <SiSvelte fontSize={60} />
-            </Link>
+            </Link> */}
             <Link
               target="_blank"
               href="https://chakra-ui.com/"
@@ -179,7 +179,7 @@ const Skills = () => {
             >
               <SiExpress fontSize={60} />
             </Link>
-            <Link
+            {/* <Link
               target="_blank"
               href="https://laravel.com/"
               color="#F7941D"
@@ -187,7 +187,7 @@ const Skills = () => {
               ml={0}
             >
               <SiLaravel fontSize={60} />
-            </Link>
+            </Link> */}
             <Link
               target="_blank"
               href="https://www.mysql.com/"
@@ -278,7 +278,7 @@ const Skills = () => {
             >
               <TbBrandVscode fontSize={60} />
             </Link>
-            <Link
+            {/* <Link
               href="https://www.latex-project.org/"
               color="#F7941D"
               m={3}
@@ -286,7 +286,7 @@ const Skills = () => {
               target="_blank"
             >
               <SiLatex fontSize={60} />
-            </Link>
+            </Link> */}
           </Box>
           <Divider />
         </Container>
