@@ -39,7 +39,8 @@ const Page = () => {
               fontWeight="bold"
               fontFamily="'Cairo', sans-serif"
             >
-              Hi, I&apos;m a Pharmacist raised in Bahrain!
+              Unleashing Creative Code: Crafting Solutions with Passion and
+              Precision
             </Text>
           </Box>
           <Box display={{ md: 'flex' }}>
@@ -54,14 +55,18 @@ const Page = () => {
             About Me
           </Heading>
           <Paragraph>
-            Ahmed is a Undergrade Pharmacy Student and Web developer based in Bahrain with
-            passion of building digital stuff with code to solve real-life
-            problems. One of his main interests is involving of code in pharmacy
-            field. The process of developing handled by him, from early designs
-            to final assessment. He have also wide experience in graphic design
-            field as he is a Volunteer Graphic Designer in EPSF. When not coding
-            neither studying, he loves drawing portrait and walking out.
-            Currently, he studies for final year PharmD degree.
+            With a strong dedication to both academics and technology, I am an
+            undergraduate Pharmacy student and Web Developer based in Bahrain.
+            My true passion lies in crafting digital solutions through coding to
+            tackle real-world problems. What sets me apart is my keen interest
+            in integrating code into the pharmacy field. From initial concept to
+            final assessment, I'm hands-on in the entire development process.
+            Alongside this, I've honed my skills in graphic design as a
+            committed Volunteer Graphic Designer at EPSF. When I'm not immersed
+            in coding or studies, I find joy in sketching portraits and
+            exploring the outdoors. Currently, I'm diligently pursuing my final
+            year of the PharmD degree, embodying a unique blend of technical
+            prowess and creative flair.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">

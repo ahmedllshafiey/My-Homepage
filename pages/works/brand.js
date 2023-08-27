@@ -28,27 +28,26 @@ const Core = () => {
             src="/images/assets/Stacked Cover.jpg"
           />
           <Paragraph>
-            Tamer Construction Company stands as a beacon of Egyptian
-            excellence, embodying the essence of luxury and safety in every
-            project they undertake. With a strong commitment to quality
-            craftsmanship, Tamer Construction seamlessly weaves Egyptian
-            heritage into their designs, infusing each creation with a sense of
-            pride and cultural identity. Their architectural marvels are a
-            testament to their dedication to preserving Egypt's rich history
-            while embracing modern luxury. Meticulous attention to detail
-            ensures that every project exudes opulence while maintaining the
-            highest standards of safety and functionality. Tamer Construction
-            Company proudly upholds the tradition of Egyptian craftsmanship
-            while forging a path towards a future where elegance and security
-            harmoniously coexist.
+            Dive into the world of "Tameer," a project that encapsulates the
+            essence of strength, luxury, and heritage. At its core, this
+            endeavor draws inspiration from the Mydoum Pyramid in Beni-Suef,
+            infusing it into a captivating logo that symbolizes power and
+            endurance. The strategic use of blue hues evokes a sense of strength
+            and determination, while the whites breathe life into notions of
+            luxury and refinement. Merging luxury and durability is no small
+            feat, yet this design masterfully achieves that fusion. The project
+            adds value through its embodiment of luxury, durability, safety, and
+            modernity intertwined with Egypt's rich heritage. "Tameer" stands as
+            a testament to the harmonious coexistence of these elements, making
+            a resounding visual statement
           </Paragraph>
-          <SimpleGrid columns={[1, 1, 2]} gap={6} mt={4}>
-            <Image mb={4} borderRadius="lg" src="/images/assets/Flayer.jpg" />
-            <Image mb={4} borderRadius="lg" src="/images/assets/Card.jpg" />
+          <SimpleGrid columns={[1, 1, 2]} gap={4} mb={4} mt={4}>
+            <Image borderRadius="lg" src="/images/assets/Flayer.jpg" />
+            <Image borderRadius="lg" src="/images/assets/Card.jpg" />
           </SimpleGrid>
-          <Image mb={4} borderRadius="lg" src="/images/assets/Colors.jpg" />
+          <Image borderRadius="lg" src="/images/assets/Colors.jpg" />
           <NextLink href="https://www.behance.net/gallery/168177325/Tameer">
-            <Button rightIcon={<ChevronRightIcon />} bg="#F7941D">
+            <Button rightIcon={<ChevronRightIcon />} bg="#F7941D" mt={4}>
               Project Link
             </Button>
           </NextLink>
