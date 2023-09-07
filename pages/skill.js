@@ -31,7 +31,10 @@ import {
   SiVim,
   SiLatex,
   SiChakraui,
-  SiBootstrap
+  SiBootstrap,
+  SiTailwindcss,
+  SiMongoose,
+  SiMongodb
 } from 'react-icons/si'
 import { TbBrandVscode } from 'react-icons/tb'
 
@@ -113,15 +116,6 @@ const Skills = () => {
             >
               <SiSass fontSize={60} />
             </Link>
-            {/* <Link
-              target="_blank"
-              href="https://svelte.dev/"
-              m={3}
-              color="#F7941D"
-              ml={0}
-            >
-              <SiSvelte fontSize={60} />
-            </Link> */}
             <Link
               target="_blank"
               href="https://chakra-ui.com/"
@@ -139,6 +133,15 @@ const Skills = () => {
               ml={0}
             >
               <SiBootstrap fontSize={60} />
+            </Link>
+            <Link
+              target="_blank"
+              href="https://tailwindcss.com/"
+              m={3}
+              color="#F7941D"
+              ml={0}
+            >
+              <SiTailwindcss fontSize={60} />
             </Link>
           </Box>
           <Divider mt={4} mb={6} />
@@ -179,15 +182,33 @@ const Skills = () => {
             >
               <SiExpress fontSize={60} />
             </Link>
-            {/* <Link
+            <Link
               target="_blank"
-              href="https://laravel.com/"
+              href="https://www.mysql.com/"
               color="#F7941D"
               m={3}
               ml={0}
             >
-              <SiLaravel fontSize={60} />
-            </Link> */}
+              <SiMysql fontSize={60} />
+            </Link>
+            <Link
+              target="_blank"
+              href="https://www.mongodb.com/"
+              color="#F7941D"
+              m={3}
+              ml={0}
+            >
+              <SiMongodb fontSize={60} />
+            </Link>
+            <Link
+              target="_blank"
+              href="https://mongoosejs.com/"
+              color="#F7941D"
+              m={3}
+              ml={0}
+            >
+              <SiMongoose fontSize={60} />
+            </Link>
             <Link
               target="_blank"
               href="https://www.mysql.com/"
@@ -278,7 +299,7 @@ const Skills = () => {
             >
               <TbBrandVscode fontSize={60} />
             </Link>
-            {/* <Link
+            <Link
               href="https://www.latex-project.org/"
               color="#F7941D"
               m={3}
@@ -286,7 +307,7 @@ const Skills = () => {
               target="_blank"
             >
               <SiLatex fontSize={60} />
-            </Link> */}
+            </Link>
           </Box>
           <Divider />
         </Container>
