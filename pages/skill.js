@@ -209,15 +209,6 @@ const Skills = () => {
             >
               <SiMongoose fontSize={60} />
             </Link>
-            <Link
-              target="_blank"
-              href="https://www.mysql.com/"
-              color="#F7941D"
-              m={3}
-              ml={0}
-            >
-              <SiMysql fontSize={60} />
-            </Link>
           </Box>
           <Divider mt={4} mb={6} />
           <Heading as="h3" fontSize={25} mb={2}>
