@@ -14,16 +14,6 @@ const Works = () => {
       <Container>
         <Section>
           <Heading as="h3" fontSize={25} mb={4}>
-            Humanitarian Projects
-          </Heading>
-          <SimpleGrid columns={[1, 1, 1]} gap={6} mb={4}>
-            <WorkGridItem id="health" title="Health Humans" thumbnail={health}>
-              Dedicatedly Volunteering for the EPSF-Hosted Medical Conference in
-              Beni-Suef, Focused on Elevating Cardiovascular Disease Awareness.
-            </WorkGridItem>
-          </SimpleGrid>
-          <Divider mb={4} />
-          <Heading as="h3" fontSize={25} mb={4}>
             Graphic Design Projects
           </Heading>
           <SimpleGrid columns={[1, 1, 1]} gap={6} mb={4}>
