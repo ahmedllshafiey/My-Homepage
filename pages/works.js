@@ -8,7 +8,6 @@ import design2 from '../public/images/assets/Nefertiti Poster -01.jpg'
 import design3 from '../public/images/assets/Final.jpg'
 import design4 from '../public/images/assets/Cover Head.jpg'
 
-
 const Works = () => {
   return (
     <Layout>
