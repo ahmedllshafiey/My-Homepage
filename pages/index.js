@@ -17,7 +17,6 @@ import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import { Header } from '../components/header'
-import img from '../public/images/assets/Story.jpg'
 import { GridItem } from '../components/grid-item'
 import { FaGithub } from 'react-icons/fa'
 import {
@@ -30,9 +29,9 @@ import {
 const Page = () => {
   return (
     <Layout>
-      <Container>
+      <Container maxW="container.md">
         <Section delay={0.1}>
-          <Header src="/images/assets/Story.jpg" />
+          <Header src="My Photo.jpg" />
           <Box borderRadius="lg" bg="#F7941D" mb={6} p={3} align="center">
             <Text
               color="dark"
@@ -69,9 +68,9 @@ const Page = () => {
             prowess and creative flair.
           </Paragraph>
           <Box align="center" my={4}>
-            <NextLink href="/works">
+            <NextLink href="https://www.linkedin.com/in/ahmedllshafiey/">
               <Button rightIcon={<ChevronRightIcon />} bg="#F7941D" m={2}>
-                My Portfolio
+                My Linkedin
               </Button>
             </NextLink>
             <NextLink href="https://github.com/ahmedllshafiey">
